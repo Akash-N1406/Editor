@@ -1,0 +1,17 @@
+{
+  "name": "collab-editor-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "ws": "^8.19.0",
+    "y-websocket": "^1.5.4"
+  },
+  "scripts": {
+    "start": "y-websocket --port 1234"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

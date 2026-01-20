@@ -1,0 +1,32 @@
+.editor-container {
+    flex: 1;
+    border-top: 1px solid #444;
+}
+
+/* Remote Cursor Styling */
+.yRemoteSelection {
+    background-color: rgba(250, 225, 0, 0.2);
+}
+
+.yRemoteSelectionHead {
+    position: absolute;
+    border-left: 2px solid orange;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.yRemoteSelectionHead::after {
+    content: attr(data-user-name);
+    position: absolute;
+    top: -1.5em;
+    left: -2px;
+    background: orange;
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
+    font-family: sans-serif;
+    white-space: nowrap;
+    border-radius: 3px;
+}
