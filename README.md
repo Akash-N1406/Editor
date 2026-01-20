@@ -43,6 +43,7 @@ collab-editor/
 ├── server/              # Node.js WebSocket server
 │   ├── server.js        # Signaling & room management
 │   └── utils.js         # Custom WS connection handler
+```
 
 ---
 
