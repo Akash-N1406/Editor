@@ -1,4 +1,3 @@
-```markdown
 # MS-Collab: Real-Time Collaborative Code Editor
 
 A professional-grade, real-time collaborative code editor built with the same engine that powers **VS Code** and the distributed consistency logic used by **Figma**.
@@ -47,8 +46,6 @@ collab-editor/
 │   ├── server.js        # Signaling & room management
 │   └── utils.js         # Custom WS connection handler
 
-```
-
 ---
 
 ## ⚙️ Setup & Installation
@@ -79,9 +76,3 @@ npm start
 ```
 
 The client will launch on `http://localhost:3000`. Open multiple tabs to test the collaboration.
-
----
-
-**Next Step:** Since you have the code and the README, would you like me to generate a **GitHub Action** file that will automatically deploy this to the cloud whenever you push your code?
-
-```
