@@ -2,10 +2,8 @@
 
 A professional-grade, real-time collaborative code editor built with the same engine that powers **VS Code** and the distributed consistency logic used by **Figma**.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/frontend-React-61dafb.svg)
 ![Node](https://img.shields.io/badge/backend-Node.js-339933.svg)
-![Azure](https://img.shields.io/badge/deployment-Azure-0089d6.svg)
 
 ## 🚀 Key Features
 
